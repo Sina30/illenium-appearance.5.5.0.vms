@@ -570,6 +570,7 @@ if not Config.vms_tattooshop then
     }
 end
 
+
 Config.ClothingRooms = {
     {
         job = "police",

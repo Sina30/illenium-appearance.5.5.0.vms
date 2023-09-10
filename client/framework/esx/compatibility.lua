@@ -35,6 +35,9 @@ RegisterNetEvent("skinchanger:loadSkin", function(skin, cb)
     else -- add validation invisible when failed registration (maybe server restarted when apply skin)
         SetInitialClothes(Config.InitialPlayerClothes[Framework.GetGender(true)])
     end
+    if Framework.PlayerData and Framework.PlayerData.loadout then
+        TriggerEvent("esx:restoreLoadout")
+    end
     Framework.CachePed()
     if Config.vms_tattooshop then
         exports['vms_tattooshop']:reloadPlayerTattoos()

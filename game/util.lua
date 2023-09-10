@@ -266,8 +266,8 @@ local function setTattoos(ped, tattoos, style)
             end
         end
     end
-    if Config.RCoreTattoosCompatibility then
-        TriggerEvent("rcore_tattoos:applyOwnedTattoos")
+    if Config.vms_tattooshop then
+        TriggerEvent("vms_tattooshop:cl:loadPlayerSkin")
     end
 end
 
