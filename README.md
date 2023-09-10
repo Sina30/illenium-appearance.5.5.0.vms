@@ -7,8 +7,6 @@ Recommended use of one of these resources when using the vms_charcreator, vms_cl
 
 <img src="https://i.imgur.com/ltLSMmh.png" alt="illenium-appearance with Tattoos" />
 
-Discord: https://discord.illenium.dev
-
 **Note:** Do **NOT** use the `main` branch as it will most likely be broken for you. NO SUPPORT WILL BE PROVIDED IF YOU USE IT. Only use the [latest release](https://github.com/iLLeniumStudios/illenium-appearance/releases/latest)
 
 ## Supported Frameworks
